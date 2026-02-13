@@ -1,3 +1,6 @@
+print("CI test - webhook trigger")
+
+
 from flask import Flask, request, jsonify
 import mysql.connector
 import os
